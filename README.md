@@ -1,16 +1,40 @@
-# React + Vite
+#  Kartikey Gogia – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built to showcase my projects, skills, and journey as a Full Stack Developer. The portfolio focuses on combining modern web development with real-world problem-solving and AI-driven features.
 
-Currently, two official plugins are available:
+## Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Clean and responsive UI design
+* Interactive and smooth user experience
+* Showcases real-world and AI-based projects
+* Fully responsive across devices
 
-## React Compiler
+##  Featured Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎮 Gesture Control System
 
-## Expanding the ESLint configuration
+A real-time computer vision system that allows users to control games using hand gestures. Built using MediaPipe for hand tracking and gesture recognition.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🌍 Civic Eye
+
+A smart city issue reporting platform where users can report problems like potholes, garbage, and street issues using image and location data, with scope for AI-based detection.
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript (ES6+)
+* HTML5 & CSS3
+* MediaPipe (for gesture recognition)
+
+## 🌐 Live Demo
+
+👉 https://portfolio-rose-two-51bu4x6t2i.vercel.app/
+
+## 📌 Purpose
+
+This project reflects my focus on building not just websites, but intelligent and interactive systems that solve real-world problems.
+
+## 👨‍💻 Author
+
+Kartikey Gogia
+Full Stack Developer

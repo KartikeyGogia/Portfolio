@@ -47,16 +47,13 @@ function Sidebar(){
     <span className="nav-line"></span>
     <span className="nav-text">EXPERIENCE</span>
   </a>
-
-
-
-                
+     
             </nav>
-            <div className="social-icons" style={{
-                  display: "flex",
-                  gap: "20px",
-                  marginTop: "60px"
-                }}>
+            <div style={{
+                display: "flex",
+                gap: "20px",
+                marginTop: "60px"
+            }}>
 
   <a href="https://github.com/KartikeyGogia" target="_blank">
     <FaGithub />

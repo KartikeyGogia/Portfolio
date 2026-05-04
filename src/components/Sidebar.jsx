@@ -5,7 +5,6 @@ function Sidebar(){
     return(
         <div style={{
             position:"fixed",
-            display:"flex",
             left:"0",
             top:"0",
             height:"100vh",

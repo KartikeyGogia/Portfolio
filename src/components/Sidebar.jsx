@@ -5,6 +5,7 @@ function Sidebar(){
     return(
         <div style={{
             position:"fixed",
+            display:"flex",
             left:"0",
             top:"0",
             height:"100vh",
@@ -24,11 +25,7 @@ function Sidebar(){
 
             </p>
 
-            <nav style={{marginTop:"40px",
-                display:"flex",
-                flexDirection:"column",
-                gap:"15px"
-            }}>
+            
                 <nav style={{
   marginTop: "50px",
   display: "flex",
@@ -52,14 +49,14 @@ function Sidebar(){
   </a>
 
 
-</nav>
+
                 
             </nav>
             <div className="social-icons" style={{
-  display: "flex",
-  gap: "20px",
-  marginTop: "60px"
-}}>
+                  display: "flex",
+                  gap: "20px",
+                  marginTop: "60px"
+                }}>
 
   <a href="https://github.com/KartikeyGogia" target="_blank">
     <FaGithub />

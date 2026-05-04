@@ -56,7 +56,6 @@ function Sidebar(){
                 
             </nav>
             <div className="social-icons" style={{
-  marginTop: "auto",
   display: "flex",
   gap: "20px",
   marginTop: "60px"

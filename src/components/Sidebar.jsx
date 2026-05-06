@@ -4,21 +4,24 @@ import { SiGmail } from "react-icons/si"
 function Sidebar(){
     return(
         <div style={{
-            position:"fixed",
-            left:"0",
-            top:"0",
-            height:"100vh",
-            width:"40%",
-            padding:"100px",
-            flexDirection:"column",
-            justifyContent:"center"
+
+          position:"fixed",
+          left:"0",
+          top:"0",
+          height:"100vh",
+          width: window.innerWidth < 768 ? "100%" : "40%", 
+          padding: window.innerWidth < 768 ? "40px" : "100px",
+          flexDirection:"column",
+          justifyContent:"center",
+          overflow:"auto"
         }}>
             <h1 style={{fontSize:"40px"}}>
                 Kartikey Gogia
             </h1>
             <h2 style={{fontSize:"20px", color:"#8892b0"}}>Full Stack Developer</h2>
 
-            <p style={{maxWidth:"300px", marginTop:"20px"}}>
+            <p style={{maxWidth:window.innerWidth < 768 ? "100%" : "300px",
+               marginTop:"20px"}}>
                 I build intelligent and interactive web systems by integrating AI and 
                 real-time technologies.
 
@@ -26,11 +29,11 @@ function Sidebar(){
 
             
                 <nav style={{
-  marginTop: "50px",
-  display: "flex",
-  flexDirection: "column",
-  gap: "25px"
-}}>
+                     marginTop: "50px",
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "25px"
+                    }}>
 
   <a href="#about" className="nav-link">
     <span className="nav-line"></span>

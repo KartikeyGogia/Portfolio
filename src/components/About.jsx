@@ -13,6 +13,7 @@ function About(){
                 interactive web applications. I enjoy combining clean UI design
                 with practical functionality to create experiences that feel both
                  smooth and meaningful.
+                 </p>
                 <p>
                     Currently pursuing B.Tech in Computer Science, I work primarily with 
                     HTML, CSS, JavaScript, and React, while exploring how AI can enhance 
@@ -33,7 +34,7 @@ function About(){
 
 
 
-            </p>
+            
             {/* <p>
                Here are a few technologies I have been working with:
 

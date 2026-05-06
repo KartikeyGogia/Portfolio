@@ -62,7 +62,7 @@ function Projects() {
 
       
       <a
-        href="https://github.com/your-repo-3"
+        href="https://mern-product-app-psi.vercel.app/login"
         target="_blank"
         rel="noopener noreferrer"
         className="project-card"

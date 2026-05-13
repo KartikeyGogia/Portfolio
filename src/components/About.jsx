@@ -8,7 +8,7 @@ function About(){
                 About me
             </h2>
             <p>
-                About
+                
                 I’m a Full Stack Developer focused on building intelligent and 
                 interactive web applications. I enjoy combining clean UI design
                 with practical functionality to create experiences that feel both
